@@ -1,0 +1,16 @@
+[package]
+name = "sumcheck"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ff = "0.13.0"
+neptune = "13.0.0"
+thiserror = "1.0.61"
+
+[dev-dependencies]
+pasta_curves = "0.5.1"
+rand = "0.8.5"
+generic-array = "1.0.1"
